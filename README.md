@@ -1,6 +1,6 @@
-# 📰 News Topic Classifier Using BERT
+#  News Topic Classifier Using BERT
 
-## 📌 Objective
+##  Objective
 The goal of this project is to fine-tune a **BERT** transformer model to automatically classify news headlines into one of four categories:
 - World
 - Sports
@@ -11,7 +11,7 @@ This helps automate news categorization for media outlets, aggregators, and rese
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 We used the **AG News dataset** from Hugging Face Datasets, which contains 120,000 training samples and 7,600 test samples.  
 For quick demonstration on CPU, we reduced the dataset to:
 - **Train:** 2,000 samples
@@ -19,7 +19,7 @@ For quick demonstration on CPU, we reduced the dataset to:
 
 ---
 
-## 🛠 Methodology / Approach
+##  Methodology / Approach
 1. **Data Loading & Preprocessing**
    - Loaded dataset from Hugging Face Datasets.
    - Tokenized headlines using `BertTokenizerFast`.
@@ -45,7 +45,7 @@ For quick demonstration on CPU, we reduced the dataset to:
 
 ---
 
-## 📊 Key Results
+##  Key Results
 | Metric       | Score   |
 |--------------|---------|
 | Accuracy     | 86.6%   |
@@ -53,12 +53,12 @@ For quick demonstration on CPU, we reduced the dataset to:
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 Once you run the notebook, a Gradio app will launch locally, allowing you to input any headline and get the predicted topic instantly.
 
 ---
 
-## 📦 Installation
+##  Installation
 ```bash
 git clone https://github.com/yourusername/news-topic-classifier-bert.git
 cd news-topic-classifier-bert
