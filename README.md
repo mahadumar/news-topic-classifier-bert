@@ -60,6 +60,4 @@ Once you run the notebook, a Gradio app will launch locally, allowing you to inp
 
 ##  Installation
 ```bash
-git clone https://github.com/yourusername/news-topic-classifier-bert.git
-cd news-topic-classifier-bert
-pip install -r requirements.txt
+git clone https://github.com/mahadumar/news-topic-classifier-bert.git
